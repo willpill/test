@@ -1,0 +1,78 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Rocket",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocket",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      }
+    },
+    {
+      "name": "RocketBootsTickEvent",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocket_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wr",
+      "type": "code",
+      "sortid": 3,
+      "compiles": false,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "wr"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.rocket_boots_2.rocket_chestplate": "Rocket Body",
+      "item.rocket_boots_2.rocket_boots": "§6Rocket Boots",
+      "item.rocket_boots_2.rocket_helmet": "Rocket Helmet",
+      "item.rocket_boots_2.rocket_leggings": "Rocket Leggings"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rocket_boots_2",
+    "modName": "rocket_boots_2",
+    "version": "1.0.0",
+    "author": "WilliamZhang, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "com.awildwillpill.rocketboots2",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100235315
+}
